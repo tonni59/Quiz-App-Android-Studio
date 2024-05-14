@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    >
+
+    <TextView
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:text="What is the Longest sea beach in the wolrd?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp">
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioBTN1"
+            android:textSize="18sp"
+            android:fontFamily="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cox's Bazar Sea Beach">
+
+        <RadioButton
+            android:id="@+id/radioBTN2"
+            android:textSize="18sp"
+            android:fontFamily="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bali Sea Beach">
+
+        <RadioButton
+            android:id="@+id/radioBTN3"
+            android:textSize="18sp"
+            android:fontFamily="serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saint Martin Sea Beach">
+
+        </RadioButton>
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="80sp"
+        android:onClick="nextBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next">
+
+    </Button>
+
+
+
+
+
+
+</LinearLayout>
